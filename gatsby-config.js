@@ -5,6 +5,11 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: 'ProfoundDark.games',
+    author: 'A. J. Asplund',
+    year: '2020'
+  },
   /* Your site config here */
   plugins: [],
 }
