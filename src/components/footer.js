@@ -5,6 +5,7 @@ const styles = {
     footer: {
         position: "absolute",
         bottom: "0",
+        height: "2.5rem",
         width: "100%",
         backgroundColor: "black",
         fontFamily: "Obidee Sans, sans-serif",
@@ -13,7 +14,7 @@ const styles = {
         margin: "0"
     },
     paragraph: {
-        padding: "0.5rem 2rem",
+        padding: "0.5rem",
         textAlign: "center"
     }
 }
@@ -31,7 +32,7 @@ function Footer() {
     `);
     return (
         <footer style={styles.footer}>
-            <p style={styles.paragraph}>©{siteData.site.siteMetadata.year} {siteData.site.siteMetadata.author} --- Created using Gatsby.js!</p>
+            <p style={styles.paragraph}>©{siteData.site.siteMetadata.year} {siteData.site.siteMetadata.author} — Created using Gatsby.js!</p>
 
         </footer>
     )

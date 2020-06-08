@@ -6,7 +6,9 @@ const styles = {
         fontFamily: "Obidee Sans, sans-serif",
         fontSize: "4rem",
         fontVariant: "small-caps",
-        padding: ".25rem 1.5rem"
+        padding: ".25rem 1.5rem",
+        backgroundColor: "black",
+        color: "white"
     }
 }
 
