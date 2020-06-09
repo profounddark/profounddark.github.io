@@ -1,16 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-
-const styles = {
-    header: {
-        fontFamily: "Obidee Sans, sans-serif",
-        fontSize: "4rem",
-        fontVariant: "small-caps",
-        padding: ".25rem 1.5rem",
-        backgroundColor: "black",
-        color: "white"
-    }
-}
+import styles from "./header.module.css";
 
 function Header() {
     const siteData = useStaticQuery(graphql`
@@ -23,8 +13,9 @@ function Header() {
     }
     `);
     return (
-        <header style={styles.header}>
+        <header className={styles.header}>
             {siteData.site.siteMetadata.title}
+            
         </header>
     )
 }

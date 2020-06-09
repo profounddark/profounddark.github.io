@@ -1,23 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-
-const styles = {
-    footer: {
-        position: "absolute",
-        bottom: "0",
-        height: "2.5rem",
-        width: "100%",
-        backgroundColor: "black",
-        fontFamily: "Obidee Sans, sans-serif",
-        fontSize: "1.5rem",
-        color: "white",
-        margin: "0"
-    },
-    paragraph: {
-        padding: "0.5rem",
-        textAlign: "center"
-    }
-}
+import styles from './footer.module.css';
 
 function Footer() {
     const siteData = useStaticQuery(graphql`
@@ -31,9 +14,8 @@ function Footer() {
     }
     `);
     return (
-        <footer style={styles.footer}>
-            <p style={styles.paragraph}>©{siteData.site.siteMetadata.year} {siteData.site.siteMetadata.author} — Created using Gatsby.js!</p>
-
+        <footer className={styles.footer}>
+            <p className={styles.paragraph}>©{siteData.site.siteMetadata.year} {siteData.site.siteMetadata.author} — Created using <a href="https://www.gatsbyjs.org/">Gatsby.js!</a></p>
         </footer>
     )
 }

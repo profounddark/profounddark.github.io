@@ -2,3 +2,8 @@
     font-family: "Obidee Sans";
     src: url("../fonts/OdibeeSans-Regular.ttf");
 }
+
+@font-face {
+    font-family: "Press Start 2P";
+    src: url("../fonts/PressStart2P-Regular.ttf");
+}

@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'ProfoundDark.games',
+    title: 'The Profound Darkness',
     author: 'A. J. Asplund',
     year: '2020'
   },
