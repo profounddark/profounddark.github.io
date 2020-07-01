@@ -14,8 +14,8 @@ function Header() {
     `);
     return (
         <header className={styles.header}>
-            {siteData.site.siteMetadata.title}
-            
+            <h1 className={styles.pageTitle}>{siteData.site.siteMetadata.title}</h1>
+
         </header>
     )
 }

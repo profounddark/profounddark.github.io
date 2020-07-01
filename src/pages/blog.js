@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 export default function Home() {
   return (
     <Layout>
-      <p>Hellow world!</p>   
+      <p>This is the dumb blog page!</p>   
     </Layout>
   )
 }

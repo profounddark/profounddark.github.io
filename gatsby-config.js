@@ -6,9 +6,23 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'The Profound Darkness',
+    title: 'profounddark.dev',
     author: 'A. J. Asplund',
-    year: '2020'
+    year: '2020',
+    menuLinks: [
+      {
+        name: 'Projects',
+        link: '/projects'
+      },
+      {
+        name: 'Blog',
+        link: '/blog'
+      },
+      {
+        name: 'About',
+        link: '/about'
+      }
+    ]
   },
   /* Your site config here */
   plugins: [],

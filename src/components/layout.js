@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from './footer.js';
-import Header from './header.js';
+import Navbar from './navbar.js';
 
 const style = {
     mainContainer: {
@@ -17,9 +17,10 @@ const style = {
 function Layout(props) {
     return (
         <div style={style.mainContainer}>
-            <Header />
+            <Navbar />
+
             <div style={style.contentWrap}>
-                { props.children }
+                {props.children}
             </div>
             <Footer />
         </div>

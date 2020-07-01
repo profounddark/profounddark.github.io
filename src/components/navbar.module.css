@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    width:100%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: "Obidee Sans", sans-serif;
+    font-variant: small-caps;
+    background-color: black;
+    color: white;
+}
+
+.navList {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.navItem {
+    display: inline-block;
+}
+
+.link {
+    padding: .5rem;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+.activeLink {
+    background-color:#999;
+}
+
+.navItem:hover {
+    color:black;
+    background-color:#0F0;
+}
+
+@media only screen and (max-width:568px) {
+    .navList {
+        justify-content: space-evenly;
+    }
+
+    .link {
+        font-size:1rem;
+        padding: .5rem;
+    }
+}
