@@ -1,0 +1,12 @@
+.mainContainer {
+    position: relative;
+    background-color: var(--pri-bgcolor);
+    min-height: 86vh;
+    color: var(--pri-fgcolor);
+}
+
+.contentWrap {
+    padding-bottom: 2.5rem;
+    max-width: 600px;
+    margin: 1rem auto 0 auto;
+}

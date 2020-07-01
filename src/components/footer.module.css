@@ -3,10 +3,10 @@
     bottom: 0;
     height: 2.5rem;
     width: 100%;
-    background-color: black;
+    background-color: var(--sec-bgcolor);
     font-family: "Obidee Sans", sans-serif;
     font-size: 1.5rem;
-    color: white;
+    color: var(--pri-bgcolor);
     margin: 0;
 }
 
