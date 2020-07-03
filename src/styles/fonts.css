@@ -7,3 +7,13 @@
     font-family: "Press Start 2P";
     src: url("../fonts/PressStart2P-Regular.ttf");
 }
+
+@font-face {
+    font-family: "Bangers";
+    src: url("../fonts/Bangers-Regular.ttf");
+}
+
+:root {
+    --heading-font: "Bangers", sans-serif;
+    --main-font: sans-serif;
+}

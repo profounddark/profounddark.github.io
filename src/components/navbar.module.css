@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
 
-    font-family: "Obidee Sans", sans-serif;
+    font-family: var(--heading-font);
     font-variant: small-caps;
     background-color: var(--sec-bgcolor);
     color: var(--sec-fgcolor);
@@ -25,8 +25,8 @@
 }
 
 .link {
-    padding: .5rem;
-    font-size: 1.5rem;
+    padding: .5rem .75rem;
+    font-size: 2rem;
     display: inline-block;
 }
 
@@ -46,6 +46,6 @@
 
     .link {
         font-size:1rem;
-        padding: .5rem;
+        padding: .5rem .75rem;
     }
 }

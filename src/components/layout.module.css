@@ -1,12 +1,20 @@
 .mainContainer {
     position: relative;
     background-color: var(--pri-bgcolor);
-    min-height: 86vh;
+    min-height: 100vh;
     color: var(--pri-fgcolor);
 }
 
 .contentWrap {
-    padding-bottom: 2.5rem;
-    max-width: 600px;
+    padding-bottom: 3.5rem;
+    max-width: 80vw;
     margin: 1rem auto 0 auto;
+}
+
+
+
+@media only screen and (max-width: 720px) {
+    .contentWrap {
+        max-width: 600px;
+    }    
 }

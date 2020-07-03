@@ -19,7 +19,7 @@ function Navbar() {
     `);
     return (
         <nav className={styles.navbar}>
-            <p className={styles.navItem}><Link className={styles.link} activeClassName={styles.activeLink} to="/">{siteQuery.site.siteMetadata.title}</Link></p>
+            <span className={styles.navItem}><Link className={styles.link} activeClassName={styles.activeLink} to="/">{siteQuery.site.siteMetadata.title}</Link></span>
             <ul className={styles.navList}>
                 {siteQuery.site.siteMetadata.menuLinks.map(navItem =>(
                     <li
