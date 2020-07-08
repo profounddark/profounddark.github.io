@@ -30,13 +30,17 @@
     display: inline-block;
 }
 
+.link:hover {
+    color: inherit;
+}
+
 .activeLink {
-    background-color:#999;
+    background-color: var(--link-active);
 }
 
 .navItem:hover {
-    color:black;
-    background-color:#0F0;
+    color: var(--sec-fgcolor);
+    background-color: var(--link-highlight);
 }
 
 @media only screen and (max-width:568px) {
@@ -45,7 +49,7 @@
     }
 
     .link {
-        font-size:1rem;
+        font-size:1.25rem;
         padding: .5rem .75rem;
     }
 }

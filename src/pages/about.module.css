@@ -1,0 +1,12 @@
+.headShot {
+    width: 200px;
+    float: right;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media only screen and (max-width:720px) {
+    .headShot {
+        width: 100%;
+    }
+}

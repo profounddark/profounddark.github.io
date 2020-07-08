@@ -13,7 +13,12 @@
     src: url("../fonts/Bangers-Regular.ttf");
 }
 
+@font-face {
+    font-family: "NotoSans";
+    src: url("../fonts/NotoSans-Regular.ttf");
+}
+
 :root {
     --heading-font: "Bangers", sans-serif;
-    --main-font: sans-serif;
+    --main-font: "NotoSans", sans-serif;
 }

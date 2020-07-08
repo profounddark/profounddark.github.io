@@ -3,7 +3,8 @@
     --pri-fgcolor: white;
     --sec-bgcolor: white;
     --sec-fgcolor: black;
-    --link-highlight: red;
+    --link-active: #999;
+    --link-highlight: lightgreen;
 }
 
 @media (prefers-color-scheme: light) {
@@ -12,6 +13,8 @@
         --pri-fgcolor: black;
         --sec-bgcolor: black;
         --sec-fgcolor: white;
+        --link-active: gray;
+        --link-highlight: green;
     }
 
 }
