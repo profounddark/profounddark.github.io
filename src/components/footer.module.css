@@ -15,7 +15,7 @@
 }
 
 .paragraph {
-    padding-top: .5rem;
+    padding: .5rem 0 0 0;
     font-family: var(--heading-font);
     font-size: 2rem;
     font-variant: small-caps;

@@ -5,6 +5,7 @@
     --sec-fgcolor: black;
     --link-active: #999;
     --link-highlight: lightgreen;
+    --transition: #999;
 }
 
 @media (prefers-color-scheme: light) {
@@ -15,6 +16,7 @@
         --sec-fgcolor: white;
         --link-active: gray;
         --link-highlight: green;
+        --transition: gray;
     }
 
 }

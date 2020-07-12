@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./navbar.module.css";
 import { graphql, useStaticQuery } from 'gatsby';
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
 
 
 function Navbar() {
@@ -20,14 +20,30 @@ function Navbar() {
     `);
     return (
         <nav className={styles.navbar}>
-            <span className={styles.navItem}><AniLink className={styles.link} activeClassName={styles.activeLink} fade to="/">{siteQuery.site.siteMetadata.title}</AniLink></span>
+            <span className={styles.navItem}>
+                <AniLink
+                    className={styles.link}
+                    activeClassName={styles.activeLink}
+                    fade
+                    direction="left"
+                    duration={1}
+                    to="/">
+                        {siteQuery.site.siteMetadata.title}
+                </AniLink>
+            </span>
             <ul className={styles.navList}>
-                {siteQuery.site.siteMetadata.menuLinks.map(navItem =>(
+                {siteQuery.site.siteMetadata.menuLinks.map(navItem => (
                     <li
                         key={navItem.name}
                         className={styles.navItem}
                     >
-                        <AniLink className={styles.link} activeClassName={styles.activeLink} fade to={navItem.link}>
+                        <AniLink
+                            className={styles.link}
+                            activeClassName={styles.activeLink}
+                            fade
+                            direction="left"
+                            duration={1}
+                            to={navItem.link}>
                             {navItem.name}
                         </AniLink>
                     </li>
