@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{"16l3":function(n,e,t){"use strict";t.r(e),t.d(e,"default",(function(){return r}));var a=t("q1tI"),l=t.n(a),o=t("Bl7J");function r(){return l.a.createElement(o.a,null,l.a.createElement("p",null,"This is the portfolio page!"))}}}]);
+//# sourceMappingURL=component---src-pages-projects-js-6219c81d638afc566685.js.map
