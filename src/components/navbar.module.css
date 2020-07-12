@@ -3,7 +3,8 @@
     width:100%;
     flex-flow: row nowrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
+    margin: 0 auto;
 
     font-family: var(--heading-font);
     font-variant: small-caps;

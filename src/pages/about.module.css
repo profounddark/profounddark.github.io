@@ -1,12 +1,18 @@
+.headline {
+    text-align: center;
+}
+
 .headShot {
-    width: 200px;
-    float: right;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    display: block;
+    width: 50%;
+    margin: 0.5rem auto;
+    border-radius: 50%;
+    border: 10px solid var(--pri-fgcolor);
 }
 
 @media only screen and (max-width:720px) {
     .headShot {
-        width: 100%;
+        width: 90%;
     }
 }
+
