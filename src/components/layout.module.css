@@ -7,7 +7,7 @@
 }
 
 .contentWrap {
-    padding: 0 1rem 3.5rem 1rem;
+    padding: 0 1rem 3rem 1rem;
     max-width: 800px;
     margin: 1rem auto 0 auto;
 }
@@ -22,6 +22,6 @@
 
 @media only screen and (max-width: 500px) {
     .contentWrap {
-        padding-bottom: 2.75rem;
+        padding-bottom: 2.25rem;
     }
 }

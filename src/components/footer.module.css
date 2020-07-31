@@ -1,16 +1,12 @@
-.divider {
-    background: linear-gradient(var(--pri-bgcolor), var(--sec-bgcolor));
-    height:0.5rem;
-    width: 100%;
-}
+
 .footer {
     position: absolute;
     bottom: 0;
-    height: 3.25rem;
+    height: 2.75rem;
     width: 100%;
-    background-color: var(--sec-bgcolor);
+    background-color: var(--pri-bgcolor);
 
-    color: var(--pri-bgcolor);
+    color: var(--pri-fgcolor);
     margin: 0;
 }
 
@@ -24,7 +20,7 @@
 
 @media only screen and (max-width:500px) {
     .footer {
-        height: 2.75rem;
+        height: 2.25rem;
     }
     .paragraph {
         font-size:1.25rem;

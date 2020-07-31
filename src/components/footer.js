@@ -15,7 +15,6 @@ function Footer() {
     `);
     return (
         <footer className={styles.footer}>
-            <div className={styles.divider}></div>
             <p className={styles.paragraph}>©{siteData.site.siteMetadata.year} {siteData.site.siteMetadata.author} — Created using <a href="https://www.gatsbyjs.org/">GatsbyJS!</a></p>
         </footer>
     )
