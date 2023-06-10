@@ -15,7 +15,7 @@
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
-    "gatsby": "^2.22.15",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-transition-link": "^1.20.2",
     "gatsby-source-filesystem": "^2.3.19",
     "gsap": "^3.4.0",
